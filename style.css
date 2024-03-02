@@ -1,0 +1,139 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.inicio {
+  /* background-color: #ffffff5b !important; */
+  border-radius: 10px;
+  padding: 20px;
+  border: 2px solid #ec3173;
+  backdrop-filter: blur(40px);
+  background: transparent;
+  box-shadow: rgb(36, 187, 102);
+}
+
+.input_color {
+  background: transparent;
+  /* background-color: ; */
+}
+
+.alerta {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #f0d155;
+}
+
+.alertaImg {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.botoes {
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.botao {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #12152f;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.botao:hover {
+  background-color: #1e2b56;
+}
+
+.pSemMensagem {
+  color: #f0f0f0;
+}
+
+.saida {
+  margin-left: 30px;
+}
+
+#mensagemDenied {
+  text-align: center;
+}
+
+.sem-mensagem {
+  margin-top: 10px;
+  border-radius: 70px;
+  width: 100px;
+  height: 100px;
+}
+
+.mensagemNt {
+  margin-top: 20px;
+  font-size: 24px;
+  color: #f0f0f0;
+}
+
+.msgOut {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #f0f0f0;
+}
+
+textarea {
+  width: 90%;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #473838;
+  resize: none;
+}
+
+#copiar {
+  margin-top: 10px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("./img/falc.jpg");
+  background-size: cover;
+  background-position: center;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.text {
+  color: #ffffff;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Decodificador de texto</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+     
+    </header>
+
+    <main>
+      
+      <section class="inicio">
+
+          <div class="inicio ">
+              <textarea
+              name=""
+              id="textoInicial"
+              cols="30"
+              rows="10"
+              placeholder="Digite seu texto"
+               class="inicio text" ></textarea>
+              
+                <p class="alerta inicio">
+                 
+                    Regra do jogo: Digite Apenas letras minúsculas e sem acento.
+                </p>
+                
+        <div class="botoes">
+            <button class="botao" id="criptografar" onclick="criptografar()">
+                Criptografar
+            </button>
+            <button
+            class="botao"
+            id="descriptografar"
+            onclick="descriptografar()"
+            >
+            Descriptografar
+        </button>
+    </div>
+    
+    <div class="saida ">
+        <div id="mensagemDenied">
+            <img src="./img/_69f1d3a9-2a4e-4438-aa0d-0be938341a6b-removebg-preview.png" alt="" class="sem-mensagem" />
+            <h1 class="mensagemNt">Esperando por uma mensagem!</h1>
+            <p class="pSemMensagem">
+                Digite um texto que você deseja criptografar ou descriptografar.
+            </p>
+        </div>
+    </div>
+        
+    <textarea class="inicio  text" name="" id="textoFinal" cols="30" rows="10"></textarea>
+    <button class="botao" id="copiar" onclick="copiar()">Copiar</button>
+</section>
+</div>
+</main>
+
+
+</body>
+</html>
